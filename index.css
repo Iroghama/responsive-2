@@ -224,7 +224,8 @@ footer .container div p img{
      opacity: 0.6;
  }
 #last{
-    text-align: right;
+    display: flex;
+    justify-content: end;
     padding-right: 2.5%;
     text-align: center;
     margin-top: 20px;
