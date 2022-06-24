@@ -29,6 +29,10 @@ color: hsl(192, 100%, 9%) ;
     width: 85%;
     font-family: regular;
 }
+button{
+    cursor: pointer;
+    font-family: bold;
+}
 
 header{
     background:  hsl(193, 100%, 96%) url(bg-hero-desktop.svg);
@@ -75,12 +79,14 @@ header .top img{
     }*/
 }
 header .top button{
-    height: 35px;
+    font-family: semi;
 background-color:white ;
-    padding: 10px 40px;
+font-size:18px;
+color: hsl(192, 100%, 9%); 
+    padding: 8px 40px;
     border-radius: 25px;
-    box-shadow: 1px 1px 1px rgb(128, 141, 153,0.3),
-    -1px -1px 1px rgb(128, 141, 153,0.3) ;
+    box-shadow: 3px 3px 3px  rgb(128, 141, 153,0.3),
+    -3px -3px 3px  rgb(128, 141, 153,0.3);
 }
 header h1{
     font-family: semi;
@@ -114,10 +120,7 @@ header .bottom button{
    color: white;
    background-color: hsl(322, 100%, 66%) ;
 }
-button{
-    cursor: pointer;
-    font-family: bold;
-}
+
 header .bottom button:hover{
 opacity: 0.6;
 }
@@ -208,12 +211,12 @@ footer .container div p img{
  .index button{
      width: 40%;
      margin: 0 auto;
-    padding: 13px 40px;
+    padding: 15px 40px;
     border-radius: 25px;
    color: white;
    background-color: hsl(322, 100%, 66%) ;
-   box-shadow:2px 2px 2px  rgb(128, 141, 153,0.3),
-    -2px 0 2px  rgb(128, 141, 153,0.3);
+   box-shadow:3px 3px 3px  rgb(128, 141, 153,0.7),
+    -3px 0 3px  rgb(128, 141, 153,0.7);
  }
  .index button:hover{
      opacity: 0.6;
@@ -328,6 +331,6 @@ footer .container div:nth-of-type(4){
     height: 20%;
 }
 .index button{
-    width: 80%;
+    width: 60%;
 }
 }
