@@ -291,7 +291,6 @@ footer .container div a:hover i{
     .flow{
         height: auto;
         flex-direction: column;
-        padding: 30px;
         grid-template-rows: 1fr 1fr; 
         padding: 70px 30px 30px 30px;
         gap: 100px;
